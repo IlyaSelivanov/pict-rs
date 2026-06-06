@@ -1,5 +1,5 @@
 [package]
-name = "pict-rs"
+name = "pict-engine"
 version = "0.1.0"
 edition = "2021"
 description = "Rust port of Microsoft's PICT pairwise independent combinatorial testing engine"
