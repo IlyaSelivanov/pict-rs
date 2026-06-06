@@ -1,0 +1,12 @@
+[package]
+name = "pict"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "pict"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[profile.release]
+lto = true
+opt-level = 3
