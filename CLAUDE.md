@@ -14,7 +14,7 @@ cargo clippy          # lint
 
 ## Project Overview
 
-This is a pure-Rust port of Microsoft's PICT (Pairwise Independent Combinatorial Testing) engine. It produces a static lib, a C-compatible dynamic lib (FFI), and an rlib — no external crate dependencies.
+This is a pure-Rust port of Microsoft's PICT (Pairwise Independent Combinatorial Testing) engine. It produces a static lib, a C-compatible dynamic lib (FFI), and an rlib — no external crate dependencies. The crate (package) is named `pict-engine` (the original `pict-rs` name was taken on crates.io) but the compiled library itself is named `pict` (see `[lib] name` in `Cargo.toml`), matching the original C++ `libpict`.
 
 ## Architecture
 
